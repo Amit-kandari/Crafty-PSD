@@ -1,0 +1,375 @@
+a{text-decoration: none;color: inherit;}
+/*
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+	 2.0.1) Font Face
+	 2.0.2) Global Headings
+	 2.0.3) Form Elements
+	 2.0.4) List styles
+	 2.0.5) General Text Formatting
+	 2.0.6) Link elements
+	 2.0.7) Table Elements
+	 2.0.8) Button Styles
+	 2.0.9) Sprite Icons
+	 2.1.0) 960 Grid Style
+ 3.) Site Wide Content
+ 4.) Header Style
+ 5.) Footer Style
+ ===============================================*/
+
+
+/*
+ 1.) Eric Meyer's Reset
+ ----------------------------------------*/
+
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*
+ 1.) Global Typography
+ ----------------------------------------*/
+
+*,
+ :before,
+ :after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-size: 62.5%;
+   
+}
+
+
+/*
+ 2.0.1) Font Face
+ -----------------------------*/
+
+
+/*Put Your font face Styles here*/
+
+
+/*
+ 2.0.2) Global Headings
+ -----------------------------*/
+
+h1,h2,h3,h4,h5,h6 {font-family: 'Lato', sans-serif;}
+
+h1 {}
+
+h2 { margin: 0 0 23px;
+    text-transform: uppercase;
+    font-size: 34px;
+    color: #6b6b6b;
+    font-weight: 700;
+      
+
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0 0 64px;
+  line-height: 40px;
+  padding: 0 10px 0;
+}
+
+h4 {    font-size: 26px;
+   font-weight: 400;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  margin: 0 0 84px;
+     }
+
+h5 {}
+
+h6 {}
+
+
+/*
+ 2.0.3) Form Elements
+ -----------------------------*/
+
+
+/*
+ 2.0.4) List Styles
+ ---------------------------------*/
+
+
+/*
+ 2.0.5) General Text Formatting
+ -----------------------------------*/
+
+
+/*
+ 2.0.6) Link style
+ -------------------------*/
+
+
+/*
+ 2.0.7) Table Elements
+ --------------------------*/
+
+
+/*
+ 2.0.8) Button Styles
+ -------------------------*/
+.greenbutton{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    background: #65bf95;
+    border: 1px solid #65bf95;
+    width: 261px;
+    text-align: center; 
+    padding:    20px 0px;
+    cursor:     pointer; 
+    display:    block;  
+    margin:      0 auto;  
+}
+
+/*
+ 2.0.9) Sprite Icons
+ -------------------------*/
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+
+/*
+ 3.) Site Wide Content
+ ------------------------------*/
+
+#wrapper {}
+
+
+.container{
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+	padding: 0 15px;
+}
+
+
+
+
+
+
+/*
+ 4.) Header Styles
+ ------------------------------*/
+
+#header {}
+
+
+/*
+ 5.) Footer Styles
+ ------------------------------*/
+
+#footer{
+    text-align: center;
+    background: #f7f7f7;
+    padding: 90px 0 93px;
+
+}
+#footer  span {
+    font-size: 14px;
+      color: #3b3b3b;
+      display: block;
+      margin-top: 37px;
+      font-family: 'Lato', sans-serif;
+      font-weight:400;
+}
+
+#footer  span strong{
+    font-weight: 600;
+}
